@@ -1,0 +1,23 @@
+{
+    "name": "gitrequests/yii2-widget-easyautocomplete",
+    "description": "Yii2 widget for the EasyAutocomplete plugin (https://github.com/pawelczak/EasyAutocomplete).",
+    "keywords": ["yii2", "extension", "widget", "autocomplete", "form", "dropdown", "jquery", "plugin"],
+    "homepage": "https://github.com/gitrequests/yii2-widget-easyautocomplete",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Bankousky",
+            "email": "xkritikx@gmail.com",
+            "homepage": "https://github.com/gitrequests/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "gitrequests\\easyautocomplete\\": ""
+        }
+    },
+    "support": {
+        "issues": "https://github.com/gitrequests/yii2-widget-easyautocomplete/issues"
+    }
+}
