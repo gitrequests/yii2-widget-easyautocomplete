@@ -3,7 +3,7 @@ Yii2 widget for the EasyAutocomplete plugin (https://github.com/pawelczak/EasyAu
 
 ## Install
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/gitrequests/yii2-widget-easyautocomplete/composer.json) for this extension's requirements and dependencies.
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/gitrequests/yii2-widget-easyautocomplete/blob/master/composer.json) for this extension's requirements and dependencies.
 
 To install, either run
 
