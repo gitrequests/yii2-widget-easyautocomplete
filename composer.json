@@ -12,12 +12,17 @@
             "homepage": "https://github.com/gitrequests/"
         }
     ],
+    "require": {
+        "bower-asset/EasyAutocomplete": "~1",
+        "yiisoft/yii2": "~2"
+    },
     "autoload": {
         "psr-4": {
             "gitrequests\\easyautocomplete\\": ""
         }
     },
     "support": {
+        "source": "https://github.com/gitrequests/yii2-widget-easyautocomplete",
         "issues": "https://github.com/gitrequests/yii2-widget-easyautocomplete/issues"
     }
 }
