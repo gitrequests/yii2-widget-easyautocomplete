@@ -19,7 +19,7 @@ class EasyAutocompleteAsset extends AssetBundle
 		'easy-autocomplete.min.css'
 	];
     public $js = [
-	    'easy-autocomplete.min.js'
+	    'jquery.easy-autocomplete.min.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset'
