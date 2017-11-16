@@ -19,7 +19,7 @@
     "config": {
         "fxp-asset": {
             "resolutions": {
-                "bower-asset/jquery": "*"
+                "bower-asset/jquery": "^3.0.0"
             }
         }
     },
