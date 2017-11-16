@@ -8,13 +8,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require gitrequests/yii2-widget-easyautocomplete "@dev"
+$ php composer.phar require gitrequests/yii2-widget-easyautocomplete "dev-master"
 ```
 
 or add
 
 ```
-"gitrequests/yii2-widget-easyautocomplete": "@dev"
+"gitrequests/yii2-widget-easyautocomplete": "dev-master"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -34,7 +34,7 @@ You can also use this widget in an [[ActiveForm]] using the [[ActiveField::widge
 method, for example like this:
 
 ```php
-<?= $form->field($model, 'address')->widget(EasyAutocomplete::className(), [
+echo $form->field($model, 'address')->widget(EasyAutocomplete::className(), [
     'pluginOptions' => [
         'url' => Url::to('data/countries.json'),
         'getValue' => 'name'
@@ -44,7 +44,7 @@ method, for example like this:
 For use with list events||functions (custom match function for example):
 
 ```php
-<?= $form->field($model, 'address')->widget(EasyAutocomplete::className(), [
+echo $form->field($model, 'address')->widget(EasyAutocomplete::className(), [
     'pluginOptions' => [
         'url' => Url::to('data/countries.json'),
         'getValue' => 'name'
