@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class EasyAutocompleteAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/EasyAutocomplete/dist';
+    public $sourcePath = '@bower/easyautocomplete/dist';
 	public $css = [
 		'easy-autocomplete.min.css'
 	];
