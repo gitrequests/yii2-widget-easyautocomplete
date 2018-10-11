@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "bower-asset/jquery": "^3 as 1.11.0",
+        "bower-asset/jquery": "~3.2.1 as 1.11.0",
         "bower-asset/EasyAutocomplete": "~1.3",
         "yiisoft/yii2": "~2"
     },
